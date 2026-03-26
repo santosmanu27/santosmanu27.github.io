@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* ===== PAGINA INICIAL ===== */
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.container .subtitulo {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.links a {
+    display: block;
+    background-color: #c583b7;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* ===== FORMULARIOS ===== */
+
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-container p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.voltar {
+    display: block;
+    color: #c583b7;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
+
+/* ===== CAMPOS DO FORMULARIO ===== */
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="password"],
+.campo input[type="date"],
+.campo input[type="search"],
+.campo select,
+.campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    border-color: #c583b7;
+    outline: none;
+}
+
+.campo textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* ===== LINHA COM 2 CAMPOS ===== */
+
+.linha {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.linha .campo {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+/* ===== RADIO E CHECKBOX ===== */
+
+.opcoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.opcoes label {
+    font-weight: normal;
+    color: #555;
+}
+
+/* ===== BOTAO ===== */
+
+.botao {
+    width: 100%;
+    padding: 12px;
+    background-color: #c583b7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* ===== PESQUISA ===== */
+
+.pesquisa {
+    display: flex;
+    gap: 10px;
+}
+
+.pesquisa input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.pesquisa .botao {
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 0;
+}
+
+/* ===== RODAPE ===== */
+
+.rodape {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+    font-size: 14px;
+}
+
+.rodape a {
+    color: #c583b7;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}

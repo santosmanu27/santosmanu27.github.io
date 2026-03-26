@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <a href="index.html" class="voltar">← Voltar</a>
+
+        <h1>Cadastro de Usuário</h1>
+        <p>Preencha seus dados</p>
+
+        <form method="post">
+            <div class="campo">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="linha">
+                <div class="campo">
+                    <label for="nascimento">Data de Nascimento</label>
+                    <input type="date" id="nascimento" name="nascimento">
+                </div>
+                <div class="campo">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" placeholder="Sua cidade">
+                </div>
+            </div>
+
+            <div class="campo">
+                <label for="estado">Estado</label>
+                <select id="estado" name="estado">
+                    <option value="">Selecione seu estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>Gênero</label>
+                <div class="opcoes">
+                    <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                    <label><input type="radio" name="genero" value="feminino"> Feminino</label>
+                    <label><input type="radio" name="genero" value="outro"> Outro</label>
+                </div>
+            </div>
+
+            <div class="campo">
+                <label>Interesses</label>
+                <div class="opcoes">
+                    <label><input type="checkbox" name="interesses" value="leitura"> Leitura</label>
+                    <label><input type="checkbox" name="interesses" value="musica"> Música</label>
+                    <label><input type="checkbox" name="interesses" value="esportes"> Esportes</label>
+                    <label><input type="checkbox" name="interesses" value="viagens"> Viagens</label>
+                </div>
+            </div>
+
+            <button type="submit" class="botao">Cadastrar</button>
+        </form>
+
+        <div class="rodape">
+            Já tem uma conta? <a href="login.html">Faça login</a>
+        </div>
+    </div>
+</body>
+
+</html>

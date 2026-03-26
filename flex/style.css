@@ -1,0 +1,142 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3e8ff;
+}
+
+/* FLEX */
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* BANNER */
+.banner {
+    background: linear-gradient(90deg, #6a0dad, #9b59b6);
+    color: white;
+    height: 130px;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+/* TÍTULOS */
+.titulo-secao {
+    margin: 35px 0 20px;
+    color: #4a0072;
+}
+
+/* PRODUTOS */
+.produtos {
+    gap: 25px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: #6a0dad;
+    font-size: 1.1em;
+}
+
+.card p {
+    font-size: 0.85em;
+    margin-bottom: 10px;
+}
+
+.preco {
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #8e44ad;
+    margin-bottom: 10px;
+}
+
+.card button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #4a0072;
+}
+
+/* ⭐ DEPOIMENTOS */
+.depoimentos {
+    gap: 20px;
+    justify-content: center;
+}
+
+.depoimento {
+    background-color: #e8daef;
+    padding: 20px;
+    border-radius: 12px;
+    width: 260px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+/* SOBRE */
+.sobre {
+    background-color: #e8daef;
+    padding: 25px;
+    margin-top: 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* RODAPÉ */
+.rodape {
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.rodape-box {
+    background-color: #6a0dad;
+    color: white;
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
