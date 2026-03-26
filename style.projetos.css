@@ -47,7 +47,7 @@ nav {
     border: 1px solid #ffffff;
 }
 .container-projetos div{
-    background-color: white;
+    background-color: rgb(219, 219, 219);
     border-radius: 15px;
     padding: 10px;
 }
